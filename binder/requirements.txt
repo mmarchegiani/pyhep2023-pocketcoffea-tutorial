@@ -1,1 +1,1 @@
-pocket-coffea
+pocket-coffea==1.0rc2
