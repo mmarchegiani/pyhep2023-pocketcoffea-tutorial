@@ -2,5 +2,5 @@ plotting_style:
 
     plot_upper_label:
       by_year:
-        "2018": "${pico_to_femto:${lumi.picobarns.2012.tot}}"
+        "2012": "${pico_to_femto:${lumi.picobarns.2012.tot}}"
 
