@@ -1,0 +1,12 @@
+{
+    "DYJetsToLL_2012": {
+        "metadata": {
+            "sample": "DATA_DoubleMuon",
+            "year": "2012",
+            "isMC": "False",
+	    "primaryDataset": "DoubleMuon",
+	    "era": "C"
+        },
+    "files": ["/data/marchegiani_matteo/Run2012B_DoubleMuParked.root"]
+    }
+}
