@@ -1,0 +1,10 @@
+# METFilter flags
+
+event_flags :
+  "2012":
+    - ""
+
+
+event_flags_data: 
+  "2012":
+    - ""
