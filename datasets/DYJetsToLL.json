@@ -1,0 +1,11 @@
+{
+    "DYJetsToLL_2012": {
+        "metadata": {
+            "sample": "DYJetsToLL",
+            "year": "2012",
+            "isMC": "True",
+            "xsec": "6077.22"
+        },
+    "files": ["/data/marchegiani_matteo/DYJetsToLL.root"]
+    }
+}
