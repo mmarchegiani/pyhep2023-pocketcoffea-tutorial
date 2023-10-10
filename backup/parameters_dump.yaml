@@ -40,6 +40,8 @@ event_flags:
   - HBHENoiseIsoFilter
   - EcalDeadCellTriggerPrimitiveFilter
   - BadPFMuonFilter
+  '2012':
+  - ''
 event_flags_data:
   '2018':
   - eeBadScFilter
@@ -49,6 +51,8 @@ event_flags_data:
   - eeBadScFilter
   2016_PreVFP:
   - eeBadScFilter
+  '2012':
+  - ''
 lumi:
   picobarns:
     2016_PreVFP:
@@ -76,6 +80,8 @@ lumi:
       C: 6898.816878
       D: 31839.492009
       tot: 59832.47534
+    '2012':
+      tot: 4411.7035
   goldenJSON:
     2016_PreVFP: /work/mmarcheg/PocketCoffea/pocket_coffea/parameters/datacert/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
     2016_PostVFP: /work/mmarcheg/PocketCoffea/pocket_coffea/parameters/datacert/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt
@@ -448,6 +454,10 @@ lepton_scale_factors:
         id: NUM_TightID_DEN_TrackerMuons
         iso: NUM_LooseRelIso_DEN_TightIDandIPCut
         trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
+      '2012':
+        id: NUM_TightID_DEN_TrackerMuons
+        iso: NUM_LooseRelIso_DEN_TightIDandIPCut
+        trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
     JSONfiles:
       2016_PreVFP:
         file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2016preVFP_UL/muon_Z.json.gz
@@ -457,11 +467,14 @@ lepton_scale_factors:
         file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2017_UL/muon_Z.json.gz
       '2018':
         file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2018_UL/muon_Z.json.gz
+      '2012':
+        file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2018_UL/muon_Z.json.gz
     era_mapping:
       2016_PreVFP: 2016preVFP_UL
       2016_PostVFP: 2016postVFP_UL
       '2017': 2017_UL
       '2018': 2018_UL
+      '2012': 2018_UL
 systematic_variations:
   weight_variations:
     sf_ele_trigger:
@@ -551,6 +564,10 @@ plotting_style:
         - 3
         - 1
       sharex: true
+    systematics:
+      figsize:
+      - 9
+      - 9
   opts_data:
     color: black
     elinewidth: 1
@@ -611,6 +628,7 @@ plotting_style:
       2016_PostVFP: 16.977701784
       '2017': 41.479680527999996
       '2018': 59.832475339999995
+      '2012': 4.41 $fb^{-1}$, 8 TeV, 2012 C
 object_preselection:
   Muon:
     pt: 15.0
@@ -632,27 +650,7 @@ object_preselection:
       value: 4
       maxpt: 50.0
 HLT_triggers:
-  2016_PreVFP:
-    SingleEle:
-    - Ele27_WPTight_Gsf
-    SingleMuon:
+  '2012':
+    DoubleMuon:
     - IsoMu24
-    - IsoTkMu24
-  2016_PostVFP:
-    SingleEle:
-    - Ele27_WPTight_Gsf
-    SingleMuon:
-    - IsoMu24
-    - IsoTkMu24
-  '2017':
-    SingleEle:
-    - Ele32_WPTight_Gsf_L1DoubleEG
-    - Ele28_eta2p1_WPTight_Gsf_HT150
-    SingleMuon:
-    - IsoMu27
-  '2018':
-    SingleEle:
-    - Ele32_WPTight_Gsf
-    - Ele28_eta2p1_WPTight_Gsf_HT150
-    SingleMuon:
-    - IsoMu24
+    - IsoMu24_eta2p1

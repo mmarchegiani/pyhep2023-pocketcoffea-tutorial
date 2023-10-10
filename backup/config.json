@@ -1,134 +1,101 @@
 {
   "datasets": {
     "names": [
-      "TTTo2L2Nu_2018",
-      "TTToSemiLeptonic_2018",
-      "DATA_SingleMuon_2018_EraA",
-      "DATA_SingleMuon_2018_EraB",
-      "DATA_SingleMuon_2018_EraC",
-      "DATA_SingleMuon_2018_EraD"
+      "DYJetsToLL_2012",
+      "DATA_DoubleMuon_2012"
     ],
     "samples": [
-      "TTTo2L2Nu",
-      "TTToSemiLeptonic",
-      "DATA_SingleMuon"
+      "DYJetsToLL",
+      "DATA_DoubleMuon"
     ],
     "filesets": {
-      "TTTo2L2Nu_2018": {
+      "DYJetsToLL_2012": {
         "metadata": {
-          "das_names": "['/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']",
-          "sample": "TTTo2L2Nu",
-          "year": "2018",
+          "sample": "DYJetsToLL",
+          "year": "2012",
           "isMC": "True",
-          "xsec": "88.3419",
-          "nevents": "145020000",
-          "size": "309022244066"
+          "xsec": "4048.42"
         },
         "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/mc/RunIISummer20UL18NanoAODv9/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/0804DEBA-97D5-BE46-BB9D-B1125570966E.root"
+          "/data/marchegiani_matteo/DYJetsToLL.root"
         ]
       },
-      "TTToSemiLeptonic_2018": {
+      "DATA_DoubleMuon_2012": {
         "metadata": {
-          "das_names": "['/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM']",
-          "sample": "TTToSemiLeptonic",
-          "year": "2018",
-          "isMC": "True",
-          "xsec": "365.4574",
-          "nevents": "476408000",
-          "size": "1030792999916"
-        },
-        "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/mc/RunIISummer20UL18NanoAODv9/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/120000/0520A050-AF68-EF43-AA5B-5AA77C74ED73.root"
-        ]
-      },
-      "DATA_SingleMuon_2018_EraA": {
-        "metadata": {
-          "das_names": "['/SingleMuon/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']",
-          "sample": "DATA_SingleMuon",
-          "year": "2018",
+          "sample": "DATA_DoubleMuon",
+          "year": "2012",
           "isMC": "False",
-          "primaryDataset": "SingleMuon",
-          "era": "A",
-          "nevents": "241608232",
-          "size": "211774345140"
+          "primaryDataset": "DoubleMuon",
+          "era": "C"
         },
         "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/data/Run2018A/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v2/2550000/00EBBD1F-032C-9B49-A998-7645C9966432.root"
-        ]
-      },
-      "DATA_SingleMuon_2018_EraB": {
-        "metadata": {
-          "das_names": "['/SingleMuon/Run2018B-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']",
-          "sample": "DATA_SingleMuon",
-          "year": "2018",
-          "isMC": "False",
-          "primaryDataset": "SingleMuon",
-          "era": "B",
-          "nevents": "119918017",
-          "size": "104200105741"
-        },
-        "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v2/250000/0DE5A14A-8D7A-674E-AB1D-8630CC3271FE.root"
-        ]
-      },
-      "DATA_SingleMuon_2018_EraC": {
-        "metadata": {
-          "das_names": "['/SingleMuon/Run2018C-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD']",
-          "sample": "DATA_SingleMuon",
-          "year": "2018",
-          "isMC": "False",
-          "primaryDataset": "SingleMuon",
-          "era": "C",
-          "nevents": "109986009",
-          "size": "98847838258"
-        },
-        "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/data/Run2018C/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v2/100000/2B07B4C0-852B-9B4F-83FA-CA6B047542D1.root"
-        ]
-      },
-      "DATA_SingleMuon_2018_EraD": {
-        "metadata": {
-          "das_names": "['/SingleMuon/Run2018D-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD']",
-          "sample": "DATA_SingleMuon",
-          "year": "2018",
-          "isMC": "False",
-          "primaryDataset": "SingleMuon",
-          "era": "D",
-          "nevents": "513909894",
-          "size": "449341080911"
-        },
-        "files": [
-          "root://cmsdcadisk.fnal.gov//dcache/uscmsdisk/store/data/Run2018D/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/130000/02945FF5-75FA-D14B-ADDC-68A0F71E6F5E.root"
+          "/data/marchegiani_matteo/Run2012B_DoubleMuParked.root"
         ]
       }
     },
     "subsamples": {
-      "TTTo2L2Nu": {
+      "DYJetsToLL": {
         "type": "StandardSelection",
         "categories": {
-          "TTTo2L2Nu": [
+          "DYJetsToLL_2mu": [
             {
-              "name": "passthrough",
-              "params": {},
+              "name": "nMuonGood_eq2",
+              "params": {
+                "N": 2,
+                "coll": "MuonGood"
+              },
               "collection": "events",
               "function": {
-                "name": "passthrough_f",
+                "name": "eq_nObj",
                 "module": "pocket_coffea.lib.cut_functions",
                 "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8785412479591
+                "f_hash": 8791786589332
               },
-              "id": "passthrough__8967404513990920925"
+              "id": "nMuonGood_eq2__6215039271247046311"
+            }
+          ],
+          "DYJetsToLL_3mu": [
+            {
+              "name": "nMuonGood_eq3",
+              "params": {
+                "N": 3,
+                "coll": "MuonGood"
+              },
+              "collection": "events",
+              "function": {
+                "name": "eq_nObj",
+                "module": "pocket_coffea.lib.cut_functions",
+                "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
+                "f_hash": 8791786589332
+              },
+              "id": "nMuonGood_eq3__1561768538628806574"
+            }
+          ],
+          "DYJetsToLL_>=4mu": [
+            {
+              "name": "nMuonGood_min4",
+              "params": {
+                "N": 4,
+                "coll": "MuonGood"
+              },
+              "collection": "events",
+              "function": {
+                "name": "min_nObj",
+                "module": "pocket_coffea.lib.cut_functions",
+                "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
+                "f_hash": 8791786589305
+              },
+              "id": "nMuonGood_min4__-5583989415921719738"
             }
           ]
         },
         "is_multidim": false,
         "multidim_collection": null
       },
-      "TTToSemiLeptonic": {
+      "DATA_DoubleMuon": {
         "type": "StandardSelection",
         "categories": {
-          "TTToSemiLeptonic": [
+          "DATA_DoubleMuon": [
             {
               "name": "passthrough",
               "params": {},
@@ -137,30 +104,9 @@
                 "name": "passthrough_f",
                 "module": "pocket_coffea.lib.cut_functions",
                 "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8785412479591
+                "f_hash": 8791786589188
               },
-              "id": "passthrough__8967404513990920925"
-            }
-          ]
-        },
-        "is_multidim": false,
-        "multidim_collection": null
-      },
-      "DATA_SingleMuon": {
-        "type": "StandardSelection",
-        "categories": {
-          "DATA_SingleMuon": [
-            {
-              "name": "passthrough",
-              "params": {},
-              "collection": "events",
-              "function": {
-                "name": "passthrough_f",
-                "module": "pocket_coffea.lib.cut_functions",
-                "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8785412479591
-              },
-              "id": "passthrough__8967404513990920925"
+              "id": "passthrough__-8438307788614293323"
             }
           ]
         },
@@ -171,10 +117,10 @@
   },
   "skim": [
     {
-      "name": "nJet_min3_pt15.0",
+      "name": "nMuon_min2_pt15.0",
       "params": {
-        "N": 3,
-        "coll": "Jet",
+        "N": 2,
+        "coll": "Muon",
         "minpt": 15.0
       },
       "collection": "events",
@@ -182,15 +128,15 @@
         "name": "min_nObj_minPt",
         "module": "pocket_coffea.lib.cut_functions",
         "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-        "f_hash": 8785412479717
+        "f_hash": 8791786589314
       },
-      "id": "nJet_min3_pt15.0__2367256297863794953"
+      "id": "nMuon_min2_pt15.0__249425391828306842"
     },
     {
-      "name": "HLT_trigger_SingleMuon",
+      "name": "HLT_trigger_DoubleMuon",
       "params": {
         "primaryDatasets": [
-          "SingleMuon"
+          "DoubleMuon"
         ],
         "invert": false
       },
@@ -199,27 +145,27 @@
         "name": "_get_trigger_mask_proxy",
         "module": "pocket_coffea.lib.cut_functions",
         "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-        "f_hash": 8785412479663
+        "f_hash": 8791786589260
       },
-      "id": "HLT_trigger_SingleMuon__-8153897987629256813"
+      "id": "HLT_trigger_DoubleMuon__8167610035346553569"
     }
   ],
   "preselections": [
     {
-      "name": "nJet_min4_pt30.0",
+      "name": "nMuonGood_min2_pt25.0",
       "params": {
-        "N": 4,
-        "coll": "Jet",
-        "minpt": 30.0
+        "N": 2,
+        "coll": "MuonGood",
+        "minpt": 25.0
       },
       "collection": "events",
       "function": {
         "name": "min_nObj_minPt",
         "module": "pocket_coffea.lib.cut_functions",
         "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-        "f_hash": 8785412479717
+        "f_hash": 8791786589314
       },
-      "id": "nJet_min4_pt30.0__-8156929357830706094"
+      "id": "nMuonGood_min2_pt25.0__-2398072811849988883"
     }
   ],
   "categories": {
@@ -234,9 +180,69 @@
             "name": "passthrough_f",
             "module": "pocket_coffea.lib.cut_functions",
             "src_file": "/work/mmarcheg/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-            "f_hash": 8785412479591
+            "f_hash": 8791786589188
           },
-          "id": "passthrough__8967404513990920925"
+          "id": "passthrough__-8438307788614293323"
+        }
+      ],
+      "mll_75To115": [
+        {
+          "name": "SR",
+          "params": {
+            "pt_leading_muon": 25,
+            "mll": {
+              "low": 75,
+              "high": 115
+            }
+          },
+          "collection": "events",
+          "function": {
+            "name": "dimuon",
+            "module": "__main__",
+            "src_file": "/tmp/ipykernel_57983/1263713468.py",
+            "f_hash": 8791786565223
+          },
+          "id": "SR__-2249731196422751360"
+        }
+      ],
+      "mll_25To75": [
+        {
+          "name": "CR",
+          "params": {
+            "pt_leading_muon": 25,
+            "mll": {
+              "low": 25,
+              "high": 75
+            }
+          },
+          "collection": "events",
+          "function": {
+            "name": "dimuon",
+            "module": "__main__",
+            "src_file": "/tmp/ipykernel_57983/1263713468.py",
+            "f_hash": 8791786565223
+          },
+          "id": "CR__-4420949392526051292"
+        }
+      ],
+      "mll_115ToInf": [
+        {
+          "name": "CR",
+          "params": {
+            "pt_leading_muon": 25,
+            "mll": {
+              "low": 115,
+              "high": 2000
+            }
+          },
+          "collection": "events",
+          "function": {
+            "name": "dimuon",
+            "module": "__main__",
+            "src_file": "/tmp/ipykernel_57983/1263713468.py",
+            "f_hash": 8791786565223
+          },
+          "id": "CR__-8316679302964939969"
         }
       ]
     },
@@ -244,86 +250,83 @@
     "multidim_collection": null
   },
   "workflow": {
-    "name": "ttHbbBaseProcessor",
+    "name": "ZmumuBaseProcessor",
     "workflow_options": {},
-    "srcfile": "/work/mmarcheg/PocketCoffea/pocket_coffea/workflows/tthbb_base_processor.py"
+    "srcfile": "/work/mmarcheg/pyhep2023/pyhep2023-pocketcoffea-tutorial/base_processor.py"
   },
   "weights": {
-    "TTTo2L2Nu": {
+    "DYJetsToLL": {
       "bycategory": {
-        "inclusive": []
+        "inclusive": [],
+        "mll_75To115": [],
+        "mll_25To75": [],
+        "mll_115ToInf": []
       },
       "inclusive": [
         "genWeight",
         "lumi",
         "XS",
-        "pileup",
-        "sf_ele_reco",
-        "sf_ele_id",
-        "sf_mu_id",
         "sf_mu_iso"
       ]
     },
-    "TTToSemiLeptonic": {
+    "DATA_DoubleMuon": {
       "bycategory": {
-        "inclusive": []
+        "inclusive": [],
+        "mll_75To115": [],
+        "mll_25To75": [],
+        "mll_115ToInf": []
       },
       "inclusive": [
         "genWeight",
         "lumi",
         "XS",
-        "pileup",
-        "sf_ele_reco",
-        "sf_ele_id",
-        "sf_mu_id",
-        "sf_mu_iso"
-      ]
-    },
-    "DATA_SingleMuon": {
-      "bycategory": {
-        "inclusive": []
-      },
-      "inclusive": [
-        "genWeight",
-        "lumi",
-        "XS",
-        "pileup",
-        "sf_ele_reco",
-        "sf_ele_id",
-        "sf_mu_id",
         "sf_mu_iso"
       ]
     }
   },
   "variations": {
-    "TTTo2L2Nu": {
+    "DYJetsToLL": {
       "weights": {
         "inclusive": [
-          "pileup"
+          "sf_mu_iso"
+        ],
+        "mll_75To115": [
+          "sf_mu_iso"
+        ],
+        "mll_25To75": [
+          "sf_mu_iso"
+        ],
+        "mll_115ToInf": [
+          "sf_mu_iso"
         ]
       },
       "shape": {
-        "inclusive": []
+        "inclusive": [],
+        "mll_75To115": [],
+        "mll_25To75": [],
+        "mll_115ToInf": []
       }
     },
-    "TTToSemiLeptonic": {
+    "DATA_DoubleMuon": {
       "weights": {
         "inclusive": [
-          "pileup"
+          "sf_mu_iso"
+        ],
+        "mll_75To115": [
+          "sf_mu_iso"
+        ],
+        "mll_25To75": [
+          "sf_mu_iso"
+        ],
+        "mll_115ToInf": [
+          "sf_mu_iso"
         ]
       },
       "shape": {
-        "inclusive": []
-      }
-    },
-    "DATA_SingleMuon": {
-      "weights": {
-        "inclusive": [
-          "pileup"
-        ]
-      },
-      "shape": {
-        "inclusive": []
+        "inclusive": [],
+        "mll_75To115": [],
+        "mll_25To75": [],
+        "mll_115ToInf": []
       }
     }
   },
@@ -405,17 +408,51 @@
       "only_categories": null,
       "no_weights": false,
       "metadata_hist": false
+    },
+    "mll": {
+      "axes": [],
+      "storage": "weight",
+      "autofill": true,
+      "variations": true,
+      "only_variations": null,
+      "exclude_samples": null,
+      "only_samples": null,
+      "exclude_categories": null,
+      "only_categories": null,
+      "no_weights": false,
+      "metadata_hist": false
     }
   },
   "columns": {
-    "TTToSemiLeptonic": {
-      "inclusive": []
+    "DATA_DoubleMuon": {
+      "inclusive": [],
+      "mll_75To115": [],
+      "mll_25To75": [],
+      "mll_115ToInf": []
     },
-    "TTTo2L2Nu": {
-      "inclusive": []
+    "DYJetsToLL__DYJetsToLL_3mu": {
+      "inclusive": [],
+      "mll_75To115": [],
+      "mll_25To75": [],
+      "mll_115ToInf": []
     },
-    "DATA_SingleMuon": {
-      "inclusive": []
+    "DYJetsToLL__DYJetsToLL_2mu": {
+      "inclusive": [],
+      "mll_75To115": [],
+      "mll_25To75": [],
+      "mll_115ToInf": []
+    },
+    "DYJetsToLL__DYJetsToLL_>=4mu": {
+      "inclusive": [],
+      "mll_75To115": [],
+      "mll_25To75": [],
+      "mll_115ToInf": []
+    },
+    "DYJetsToLL": {
+      "inclusive": [],
+      "mll_75To115": [],
+      "mll_25To75": [],
+      "mll_115ToInf": []
     }
   }
 }
