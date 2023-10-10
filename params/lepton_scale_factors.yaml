@@ -7,7 +7,7 @@ lepton_scale_factors:
           trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
     JSONfiles:
       '2012':
-          file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2018_UL/muon_Z.json.gz
+          file: params/lepton_scale_factors/muon_Z.json.gz
 
     era_mapping:
         # this is needed because egamma provided correction
