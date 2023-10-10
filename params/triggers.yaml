@@ -1,5 +1,5 @@
 HLT_triggers:
   "2012":
-    SingleMuon:
+    DoubleMuon:
         - IsoMu24
         - IsoMu24_eta2p1
