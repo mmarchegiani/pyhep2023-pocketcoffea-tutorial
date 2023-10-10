@@ -1,0 +1,15 @@
+lepton_scale_factors:
+  muon_sf:
+    sf_name:
+      '2012':
+          id: NUM_TightID_DEN_TrackerMuons
+          iso: NUM_LooseRelIso_DEN_TightIDandIPCut
+          trigger: NUM_IsoMu24_DEN_CutBasedIdTight_and_PFIsoTight
+    JSONfiles:
+      '2012':
+          file: /cvmfs/cms.cern.ch/rsync/cms-nanoAOD/jsonpog-integration/POG/MUO/2018_UL/muon_Z.json.gz
+
+    era_mapping:
+        # this is needed because egamma provided correction
+        #set have a fixed set of era labels, different from ours
+        "2012": "2018_UL"
