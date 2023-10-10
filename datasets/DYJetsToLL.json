@@ -4,7 +4,7 @@
             "sample": "DYJetsToLL",
             "year": "2012",
             "isMC": "True",
-            "xsec": "6077.22"
+            "xsec": "4048.42"
         },
     "files": ["/data/marchegiani_matteo/DYJetsToLL.root"]
     }
